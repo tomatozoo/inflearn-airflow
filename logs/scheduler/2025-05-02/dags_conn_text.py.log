@@ -1599,3 +1599,248 @@ TypeError: DAG.__init__() missing 1 required positional argument: 'dag_id'
 [2025-05-02T06:37:35.436+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:37:35.435+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-05-02T06:37:35.446+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:37:35.446+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_conn_test to None, run_after=None
 [2025-05-02T06:37:35.460+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_conn_text.py took 0.065 seconds
+[2025-05-02T06:38:06.125+0000] {processor.py:186} INFO - Started process (PID=36442) to work on /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:38:06.134+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_conn_text.py for tasks to queue
+[2025-05-02T06:38:06.135+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:38:06.135+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:38:06.142+0000] {processor.py:925} INFO - DAG(s) 'dags_conn_test' retrieved from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:38:06.164+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:38:06.163+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-02T06:38:06.175+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:38:06.174+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_conn_test to None, run_after=None
+[2025-05-02T06:38:06.190+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_conn_text.py took 0.071 seconds
+[2025-05-02T06:38:36.652+0000] {processor.py:186} INFO - Started process (PID=36508) to work on /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:38:36.654+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_conn_text.py for tasks to queue
+[2025-05-02T06:38:36.656+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:38:36.655+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:38:36.665+0000] {processor.py:925} INFO - DAG(s) 'dags_conn_test' retrieved from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:38:36.685+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:38:36.685+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-02T06:38:36.696+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:38:36.696+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_conn_test to None, run_after=None
+[2025-05-02T06:38:36.715+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_conn_text.py took 0.071 seconds
+[2025-05-02T06:39:07.421+0000] {processor.py:186} INFO - Started process (PID=36574) to work on /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:39:07.429+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_conn_text.py for tasks to queue
+[2025-05-02T06:39:07.430+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:39:07.430+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:39:07.437+0000] {processor.py:925} INFO - DAG(s) 'dags_conn_test' retrieved from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:39:07.459+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:39:07.459+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-02T06:39:07.469+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:39:07.469+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_conn_test to None, run_after=None
+[2025-05-02T06:39:07.485+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_conn_text.py took 0.069 seconds
+[2025-05-02T06:39:38.046+0000] {processor.py:186} INFO - Started process (PID=36640) to work on /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:39:38.047+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_conn_text.py for tasks to queue
+[2025-05-02T06:39:38.048+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:39:38.048+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:39:38.056+0000] {processor.py:925} INFO - DAG(s) 'dags_conn_test' retrieved from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:39:38.074+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:39:38.074+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-02T06:39:38.084+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:39:38.084+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_conn_test to None, run_after=None
+[2025-05-02T06:39:38.096+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_conn_text.py took 0.058 seconds
+[2025-05-02T06:40:08.584+0000] {processor.py:186} INFO - Started process (PID=36707) to work on /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:40:08.592+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_conn_text.py for tasks to queue
+[2025-05-02T06:40:08.594+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:40:08.593+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:40:08.600+0000] {processor.py:925} INFO - DAG(s) 'dags_conn_test' retrieved from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:40:08.617+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:40:08.617+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-02T06:40:08.627+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:40:08.627+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_conn_test to None, run_after=None
+[2025-05-02T06:40:08.642+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_conn_text.py took 0.065 seconds
+[2025-05-02T06:40:38.675+0000] {processor.py:186} INFO - Started process (PID=36774) to work on /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:40:38.676+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_conn_text.py for tasks to queue
+[2025-05-02T06:40:38.677+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:40:38.677+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:40:38.682+0000] {processor.py:925} INFO - DAG(s) 'dags_conn_test' retrieved from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:40:38.698+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:40:38.697+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-02T06:40:38.707+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:40:38.706+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_conn_test to None, run_after=None
+[2025-05-02T06:40:38.719+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_conn_text.py took 0.048 seconds
+[2025-05-02T06:41:08.853+0000] {processor.py:186} INFO - Started process (PID=36835) to work on /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:41:08.854+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_conn_text.py for tasks to queue
+[2025-05-02T06:41:08.855+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:41:08.855+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:41:08.861+0000] {processor.py:925} INFO - DAG(s) 'dags_conn_test' retrieved from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:41:08.878+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:41:08.878+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-02T06:41:08.887+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:41:08.887+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_conn_test to None, run_after=None
+[2025-05-02T06:41:08.902+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_conn_text.py took 0.053 seconds
+[2025-05-02T06:41:39.200+0000] {processor.py:186} INFO - Started process (PID=36901) to work on /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:41:39.201+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_conn_text.py for tasks to queue
+[2025-05-02T06:41:39.202+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:41:39.201+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:41:39.207+0000] {processor.py:925} INFO - DAG(s) 'dags_conn_test' retrieved from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:41:39.225+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:41:39.225+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-02T06:41:39.236+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:41:39.236+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_conn_test to None, run_after=None
+[2025-05-02T06:41:39.251+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_conn_text.py took 0.057 seconds
+[2025-05-02T06:42:09.728+0000] {processor.py:186} INFO - Started process (PID=36967) to work on /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:42:09.736+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_conn_text.py for tasks to queue
+[2025-05-02T06:42:09.738+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:42:09.737+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:42:09.743+0000] {processor.py:925} INFO - DAG(s) 'dags_conn_test' retrieved from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:42:09.766+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:42:09.765+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-02T06:42:09.775+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:42:09.775+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_conn_test to None, run_after=None
+[2025-05-02T06:42:09.787+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_conn_text.py took 0.066 seconds
+[2025-05-02T06:42:40.215+0000] {processor.py:186} INFO - Started process (PID=37034) to work on /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:42:40.222+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_conn_text.py for tasks to queue
+[2025-05-02T06:42:40.224+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:42:40.223+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:42:40.229+0000] {processor.py:925} INFO - DAG(s) 'dags_conn_test' retrieved from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:42:40.248+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:42:40.248+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-02T06:42:40.257+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:42:40.257+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_conn_test to None, run_after=None
+[2025-05-02T06:42:40.274+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_conn_text.py took 0.064 seconds
+[2025-05-02T06:43:10.590+0000] {processor.py:186} INFO - Started process (PID=37101) to work on /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:43:10.600+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_conn_text.py for tasks to queue
+[2025-05-02T06:43:10.601+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:43:10.600+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:43:10.606+0000] {processor.py:925} INFO - DAG(s) 'dags_conn_test' retrieved from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:43:10.624+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:43:10.623+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-02T06:43:10.633+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:43:10.633+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_conn_test to None, run_after=None
+[2025-05-02T06:43:10.646+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_conn_text.py took 0.060 seconds
+[2025-05-02T06:43:41.036+0000] {processor.py:186} INFO - Started process (PID=37168) to work on /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:43:41.045+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_conn_text.py for tasks to queue
+[2025-05-02T06:43:41.047+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:43:41.047+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:43:41.052+0000] {processor.py:925} INFO - DAG(s) 'dags_conn_test' retrieved from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:43:41.071+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:43:41.070+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-02T06:43:41.081+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:43:41.081+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_conn_test to None, run_after=None
+[2025-05-02T06:43:41.097+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_conn_text.py took 0.066 seconds
+[2025-05-02T06:44:11.417+0000] {processor.py:186} INFO - Started process (PID=37235) to work on /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:44:11.420+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_conn_text.py for tasks to queue
+[2025-05-02T06:44:11.422+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:44:11.421+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:44:11.431+0000] {processor.py:925} INFO - DAG(s) 'dags_conn_test' retrieved from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:44:11.448+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:44:11.448+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-02T06:44:11.458+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:44:11.458+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_conn_test to None, run_after=None
+[2025-05-02T06:44:11.471+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_conn_text.py took 0.062 seconds
+[2025-05-02T06:44:41.860+0000] {processor.py:186} INFO - Started process (PID=37308) to work on /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:44:41.862+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_conn_text.py for tasks to queue
+[2025-05-02T06:44:41.863+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:44:41.862+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:44:41.868+0000] {processor.py:925} INFO - DAG(s) 'dags_conn_test' retrieved from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:44:41.885+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:44:41.884+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-02T06:44:41.893+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:44:41.893+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_conn_test to None, run_after=None
+[2025-05-02T06:44:41.905+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_conn_text.py took 0.053 seconds
+[2025-05-02T06:45:12.337+0000] {processor.py:186} INFO - Started process (PID=37379) to work on /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:45:12.345+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_conn_text.py for tasks to queue
+[2025-05-02T06:45:12.346+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:45:12.346+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:45:12.352+0000] {processor.py:925} INFO - DAG(s) 'dags_conn_test' retrieved from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:45:12.368+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:45:12.368+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-02T06:45:12.377+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:45:12.377+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_conn_test to None, run_after=None
+[2025-05-02T06:45:12.388+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_conn_text.py took 0.059 seconds
+[2025-05-02T06:45:42.830+0000] {processor.py:186} INFO - Started process (PID=37446) to work on /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:45:42.838+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_conn_text.py for tasks to queue
+[2025-05-02T06:45:42.839+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:45:42.839+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:45:42.848+0000] {processor.py:925} INFO - DAG(s) 'dags_conn_test' retrieved from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:45:42.867+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:45:42.866+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-02T06:45:42.876+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:45:42.875+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_conn_test to None, run_after=None
+[2025-05-02T06:45:42.887+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_conn_text.py took 0.065 seconds
+[2025-05-02T06:46:13.347+0000] {processor.py:186} INFO - Started process (PID=37513) to work on /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:46:13.348+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_conn_text.py for tasks to queue
+[2025-05-02T06:46:13.349+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:46:13.349+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:46:13.355+0000] {processor.py:925} INFO - DAG(s) 'dags_conn_test' retrieved from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:46:13.370+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:46:13.370+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-02T06:46:13.379+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:46:13.379+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_conn_test to None, run_after=None
+[2025-05-02T06:46:13.391+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_conn_text.py took 0.051 seconds
+[2025-05-02T06:46:43.489+0000] {processor.py:186} INFO - Started process (PID=37580) to work on /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:46:43.498+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_conn_text.py for tasks to queue
+[2025-05-02T06:46:43.499+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:46:43.498+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:46:43.504+0000] {processor.py:925} INFO - DAG(s) 'dags_conn_test' retrieved from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:46:43.520+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:46:43.520+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-02T06:46:43.530+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:46:43.530+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_conn_test to None, run_after=None
+[2025-05-02T06:46:43.542+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_conn_text.py took 0.058 seconds
+[2025-05-02T06:53:17.137+0000] {processor.py:186} INFO - Started process (PID=70) to work on /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:53:17.138+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_conn_text.py for tasks to queue
+[2025-05-02T06:53:17.140+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:53:17.140+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:53:17.149+0000] {processor.py:925} INFO - DAG(s) 'dags_conn_test' retrieved from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:53:17.303+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:53:17.302+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-02T06:53:17.319+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:53:17.319+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_conn_test to None, run_after=None
+[2025-05-02T06:53:17.349+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_conn_text.py took 0.220 seconds
+[2025-05-02T06:53:47.578+0000] {processor.py:186} INFO - Started process (PID=137) to work on /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:53:47.579+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_conn_text.py for tasks to queue
+[2025-05-02T06:53:47.581+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:53:47.581+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:53:47.586+0000] {processor.py:925} INFO - DAG(s) 'dags_conn_test' retrieved from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:53:47.601+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:53:47.601+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-02T06:53:47.611+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:53:47.611+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_conn_test to None, run_after=None
+[2025-05-02T06:53:47.624+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_conn_text.py took 0.050 seconds
+[2025-05-02T06:54:18.177+0000] {processor.py:186} INFO - Started process (PID=204) to work on /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:54:18.178+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_conn_text.py for tasks to queue
+[2025-05-02T06:54:18.180+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:54:18.180+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:54:18.187+0000] {processor.py:925} INFO - DAG(s) 'dags_conn_test' retrieved from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:54:18.203+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:54:18.203+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-02T06:54:18.214+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:54:18.214+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_conn_test to None, run_after=None
+[2025-05-02T06:54:18.231+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_conn_text.py took 0.060 seconds
+[2025-05-02T06:54:49.092+0000] {processor.py:186} INFO - Started process (PID=271) to work on /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:54:49.093+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_conn_text.py for tasks to queue
+[2025-05-02T06:54:49.095+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:54:49.095+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:54:49.103+0000] {processor.py:925} INFO - DAG(s) 'dags_conn_test' retrieved from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:54:49.120+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:54:49.120+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-02T06:54:49.132+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:54:49.132+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_conn_test to None, run_after=None
+[2025-05-02T06:54:49.149+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_conn_text.py took 0.063 seconds
+[2025-05-02T06:55:19.792+0000] {processor.py:186} INFO - Started process (PID=338) to work on /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:55:19.793+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_conn_text.py for tasks to queue
+[2025-05-02T06:55:19.795+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:55:19.795+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:55:19.801+0000] {processor.py:925} INFO - DAG(s) 'dags_conn_test' retrieved from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:55:19.817+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:55:19.817+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-02T06:55:19.829+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:55:19.829+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_conn_test to None, run_after=None
+[2025-05-02T06:55:19.845+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_conn_text.py took 0.058 seconds
+[2025-05-02T06:55:50.179+0000] {processor.py:186} INFO - Started process (PID=405) to work on /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:55:50.180+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_conn_text.py for tasks to queue
+[2025-05-02T06:55:50.182+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:55:50.182+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:55:50.187+0000] {processor.py:925} INFO - DAG(s) 'dags_conn_test' retrieved from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:55:50.204+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:55:50.203+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-02T06:55:50.214+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:55:50.214+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_conn_test to None, run_after=None
+[2025-05-02T06:55:50.229+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_conn_text.py took 0.055 seconds
+[2025-05-02T06:56:20.550+0000] {processor.py:186} INFO - Started process (PID=472) to work on /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:56:20.551+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_conn_text.py for tasks to queue
+[2025-05-02T06:56:20.553+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:56:20.553+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:56:20.560+0000] {processor.py:925} INFO - DAG(s) 'dags_conn_test' retrieved from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:56:20.575+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:56:20.575+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-02T06:56:20.585+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:56:20.584+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_conn_test to None, run_after=None
+[2025-05-02T06:56:20.596+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_conn_text.py took 0.051 seconds
+[2025-05-02T06:56:51.292+0000] {processor.py:186} INFO - Started process (PID=545) to work on /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:56:51.293+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_conn_text.py for tasks to queue
+[2025-05-02T06:56:51.295+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:56:51.295+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:56:51.300+0000] {processor.py:925} INFO - DAG(s) 'dags_conn_test' retrieved from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:56:51.318+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:56:51.318+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-02T06:56:51.331+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:56:51.330+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_conn_test to None, run_after=None
+[2025-05-02T06:56:51.344+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_conn_text.py took 0.057 seconds
+[2025-05-02T06:57:21.521+0000] {processor.py:186} INFO - Started process (PID=612) to work on /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:57:21.522+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_conn_text.py for tasks to queue
+[2025-05-02T06:57:21.524+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:57:21.524+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:57:21.530+0000] {processor.py:925} INFO - DAG(s) 'dags_conn_test' retrieved from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:57:21.547+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:57:21.546+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-02T06:57:21.558+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:57:21.557+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_conn_test to None, run_after=None
+[2025-05-02T06:57:21.571+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_conn_text.py took 0.055 seconds
+[2025-05-02T06:57:51.657+0000] {processor.py:186} INFO - Started process (PID=679) to work on /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:57:51.658+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_conn_text.py for tasks to queue
+[2025-05-02T06:57:51.661+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:57:51.660+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:57:51.668+0000] {processor.py:925} INFO - DAG(s) 'dags_conn_test' retrieved from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:57:51.685+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:57:51.685+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-02T06:57:51.698+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:57:51.698+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_conn_test to None, run_after=None
+[2025-05-02T06:57:51.714+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_conn_text.py took 0.063 seconds
+[2025-05-02T06:58:21.805+0000] {processor.py:186} INFO - Started process (PID=748) to work on /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:58:21.806+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_conn_text.py for tasks to queue
+[2025-05-02T06:58:21.808+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:58:21.807+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:58:21.813+0000] {processor.py:925} INFO - DAG(s) 'dags_conn_test' retrieved from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:58:21.828+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:58:21.828+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-02T06:58:21.838+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:58:21.838+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_conn_test to None, run_after=None
+[2025-05-02T06:58:21.849+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_conn_text.py took 0.049 seconds
+[2025-05-02T06:58:52.008+0000] {processor.py:186} INFO - Started process (PID=816) to work on /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:58:52.010+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_conn_text.py for tasks to queue
+[2025-05-02T06:58:52.013+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:58:52.012+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:58:52.026+0000] {processor.py:925} INFO - DAG(s) 'dags_conn_test' retrieved from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:58:52.051+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:58:52.051+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-02T06:58:52.064+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:58:52.063+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_conn_test to None, run_after=None
+[2025-05-02T06:58:52.079+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_conn_text.py took 0.076 seconds
+[2025-05-02T06:59:22.228+0000] {processor.py:186} INFO - Started process (PID=884) to work on /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:59:22.229+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_conn_text.py for tasks to queue
+[2025-05-02T06:59:22.232+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:59:22.231+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:59:22.237+0000] {processor.py:925} INFO - DAG(s) 'dags_conn_test' retrieved from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:59:22.253+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:59:22.253+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-02T06:59:22.264+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:59:22.263+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_conn_test to None, run_after=None
+[2025-05-02T06:59:22.277+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_conn_text.py took 0.054 seconds
+[2025-05-02T06:59:52.449+0000] {processor.py:186} INFO - Started process (PID=952) to work on /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:59:52.450+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_conn_text.py for tasks to queue
+[2025-05-02T06:59:52.452+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:59:52.452+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:59:52.458+0000] {processor.py:925} INFO - DAG(s) 'dags_conn_test' retrieved from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T06:59:52.475+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:59:52.475+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-02T06:59:52.487+0000] {logging_mixin.py:190} INFO - [2025-05-02T06:59:52.487+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_conn_test to None, run_after=None
+[2025-05-02T06:59:52.502+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_conn_text.py took 0.058 seconds
+[2025-05-02T07:00:22.572+0000] {processor.py:186} INFO - Started process (PID=1020) to work on /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T07:00:22.573+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_conn_text.py for tasks to queue
+[2025-05-02T07:00:22.574+0000] {logging_mixin.py:190} INFO - [2025-05-02T07:00:22.574+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T07:00:22.580+0000] {processor.py:925} INFO - DAG(s) 'dags_conn_test' retrieved from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T07:00:22.596+0000] {logging_mixin.py:190} INFO - [2025-05-02T07:00:22.596+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-02T07:00:22.608+0000] {logging_mixin.py:190} INFO - [2025-05-02T07:00:22.607+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_conn_test to None, run_after=None
+[2025-05-02T07:00:22.622+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_conn_text.py took 0.055 seconds
+[2025-05-02T07:00:52.700+0000] {processor.py:186} INFO - Started process (PID=1088) to work on /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T07:00:52.701+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_conn_text.py for tasks to queue
+[2025-05-02T07:00:52.703+0000] {logging_mixin.py:190} INFO - [2025-05-02T07:00:52.703+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T07:00:52.710+0000] {processor.py:925} INFO - DAG(s) 'dags_conn_test' retrieved from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T07:00:52.729+0000] {logging_mixin.py:190} INFO - [2025-05-02T07:00:52.729+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-02T07:00:52.741+0000] {logging_mixin.py:190} INFO - [2025-05-02T07:00:52.741+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_conn_test to None, run_after=None
+[2025-05-02T07:00:52.757+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_conn_text.py took 0.063 seconds
+[2025-05-02T07:01:23.420+0000] {processor.py:186} INFO - Started process (PID=1156) to work on /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T07:01:23.421+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_conn_text.py for tasks to queue
+[2025-05-02T07:01:23.423+0000] {logging_mixin.py:190} INFO - [2025-05-02T07:01:23.423+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T07:01:23.429+0000] {processor.py:925} INFO - DAG(s) 'dags_conn_test' retrieved from /opt/airflow/dags/dags_conn_text.py
+[2025-05-02T07:01:23.446+0000] {logging_mixin.py:190} INFO - [2025-05-02T07:01:23.446+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-02T07:01:23.457+0000] {logging_mixin.py:190} INFO - [2025-05-02T07:01:23.457+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_conn_test to None, run_after=None
+[2025-05-02T07:01:23.470+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_conn_text.py took 0.055 seconds

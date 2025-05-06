@@ -1,0 +1,301 @@
+[2025-05-06T08:07:27.811+0000] {processor.py:186} INFO - Started process (PID=68) to work on /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:07:27.813+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_python_import_func.py for tasks to queue
+[2025-05-06T08:07:27.819+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:07:27.818+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:07:27.836+0000] {processor.py:925} INFO - DAG(s) 'dags_python_import_func' retrieved from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:07:27.884+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:07:27.884+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-06T08:07:27.935+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:07:27.935+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_python_import_func to 2025-05-04 21:30:00+00:00, run_after=2025-05-05 21:30:00+00:00
+[2025-05-06T08:07:27.976+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_python_import_func.py took 0.176 seconds
+[2025-05-06T08:07:58.282+0000] {processor.py:186} INFO - Started process (PID=152) to work on /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:07:58.283+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_python_import_func.py for tasks to queue
+[2025-05-06T08:07:58.285+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:07:58.284+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:07:58.291+0000] {processor.py:925} INFO - DAG(s) 'dags_python_import_func' retrieved from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:07:58.305+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:07:58.305+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-06T08:07:58.325+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:07:58.325+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_python_import_func to 2025-05-05 21:30:00+00:00, run_after=2025-05-06 21:30:00+00:00
+[2025-05-06T08:07:58.337+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_python_import_func.py took 0.059 seconds
+[2025-05-06T08:08:28.912+0000] {processor.py:186} INFO - Started process (PID=222) to work on /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:08:28.913+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_python_import_func.py for tasks to queue
+[2025-05-06T08:08:28.915+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:08:28.915+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:08:28.923+0000] {processor.py:925} INFO - DAG(s) 'dags_python_import_func' retrieved from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:08:28.939+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:08:28.938+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-06T08:08:28.964+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:08:28.964+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_python_import_func to 2025-05-05 21:30:00+00:00, run_after=2025-05-06 21:30:00+00:00
+[2025-05-06T08:08:28.980+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_python_import_func.py took 0.073 seconds
+[2025-05-06T08:08:59.392+0000] {processor.py:186} INFO - Started process (PID=292) to work on /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:08:59.393+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_python_import_func.py for tasks to queue
+[2025-05-06T08:08:59.395+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:08:59.395+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:08:59.402+0000] {processor.py:925} INFO - DAG(s) 'dags_python_import_func' retrieved from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:08:59.416+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:08:59.416+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-06T08:08:59.435+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:08:59.435+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_python_import_func to 2025-05-05 21:30:00+00:00, run_after=2025-05-06 21:30:00+00:00
+[2025-05-06T08:08:59.450+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_python_import_func.py took 0.062 seconds
+[2025-05-06T08:09:29.771+0000] {processor.py:186} INFO - Started process (PID=362) to work on /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:09:29.772+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_python_import_func.py for tasks to queue
+[2025-05-06T08:09:29.773+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:09:29.773+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:09:29.779+0000] {processor.py:925} INFO - DAG(s) 'dags_python_import_func' retrieved from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:09:29.793+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:09:29.792+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-06T08:09:29.809+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:09:29.809+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_python_import_func to 2025-05-05 21:30:00+00:00, run_after=2025-05-06 21:30:00+00:00
+[2025-05-06T08:09:29.822+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_python_import_func.py took 0.055 seconds
+[2025-05-06T08:10:00.322+0000] {processor.py:186} INFO - Started process (PID=432) to work on /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:10:00.324+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_python_import_func.py for tasks to queue
+[2025-05-06T08:10:00.325+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:10:00.325+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:10:00.334+0000] {processor.py:925} INFO - DAG(s) 'dags_python_import_func' retrieved from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:10:00.347+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:10:00.347+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-06T08:10:00.368+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:10:00.367+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_python_import_func to 2025-05-05 21:30:00+00:00, run_after=2025-05-06 21:30:00+00:00
+[2025-05-06T08:10:00.382+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_python_import_func.py took 0.064 seconds
+[2025-05-06T08:10:30.509+0000] {processor.py:186} INFO - Started process (PID=502) to work on /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:10:30.510+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_python_import_func.py for tasks to queue
+[2025-05-06T08:10:30.512+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:10:30.512+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:10:30.520+0000] {processor.py:925} INFO - DAG(s) 'dags_python_import_func' retrieved from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:10:30.534+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:10:30.534+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-06T08:10:30.554+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:10:30.554+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_python_import_func to 2025-05-05 21:30:00+00:00, run_after=2025-05-06 21:30:00+00:00
+[2025-05-06T08:10:30.571+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_python_import_func.py took 0.067 seconds
+[2025-05-06T08:11:00.714+0000] {processor.py:186} INFO - Started process (PID=572) to work on /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:11:00.716+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_python_import_func.py for tasks to queue
+[2025-05-06T08:11:00.717+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:11:00.717+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:11:00.724+0000] {processor.py:925} INFO - DAG(s) 'dags_python_import_func' retrieved from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:11:00.737+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:11:00.737+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-06T08:11:00.758+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:11:00.758+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_python_import_func to 2025-05-05 21:30:00+00:00, run_after=2025-05-06 21:30:00+00:00
+[2025-05-06T08:11:00.774+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_python_import_func.py took 0.064 seconds
+[2025-05-06T08:11:30.805+0000] {processor.py:186} INFO - Started process (PID=642) to work on /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:11:30.806+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_python_import_func.py for tasks to queue
+[2025-05-06T08:11:30.807+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:11:30.807+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:11:30.813+0000] {processor.py:925} INFO - DAG(s) 'dags_python_import_func' retrieved from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:11:30.828+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:11:30.827+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-06T08:11:30.847+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:11:30.847+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_python_import_func to 2025-05-05 21:30:00+00:00, run_after=2025-05-06 21:30:00+00:00
+[2025-05-06T08:11:30.865+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_python_import_func.py took 0.065 seconds
+[2025-05-06T08:12:01.442+0000] {processor.py:186} INFO - Started process (PID=712) to work on /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:12:01.444+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_python_import_func.py for tasks to queue
+[2025-05-06T08:12:01.445+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:12:01.445+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:12:01.451+0000] {processor.py:925} INFO - DAG(s) 'dags_python_import_func' retrieved from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:12:01.465+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:12:01.464+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-06T08:12:01.482+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:12:01.482+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_python_import_func to 2025-05-05 21:30:00+00:00, run_after=2025-05-06 21:30:00+00:00
+[2025-05-06T08:12:01.496+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_python_import_func.py took 0.058 seconds
+[2025-05-06T08:12:31.672+0000] {processor.py:186} INFO - Started process (PID=782) to work on /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:12:31.673+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_python_import_func.py for tasks to queue
+[2025-05-06T08:12:31.674+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:12:31.674+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:12:31.682+0000] {processor.py:925} INFO - DAG(s) 'dags_python_import_func' retrieved from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:12:31.697+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:12:31.697+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-06T08:12:31.718+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:12:31.718+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_python_import_func to 2025-05-05 21:30:00+00:00, run_after=2025-05-06 21:30:00+00:00
+[2025-05-06T08:12:31.731+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_python_import_func.py took 0.062 seconds
+[2025-05-06T08:13:01.902+0000] {processor.py:186} INFO - Started process (PID=852) to work on /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:13:01.903+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_python_import_func.py for tasks to queue
+[2025-05-06T08:13:01.905+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:13:01.905+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:13:01.911+0000] {processor.py:925} INFO - DAG(s) 'dags_python_import_func' retrieved from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:13:01.926+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:13:01.925+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-06T08:13:01.943+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:13:01.943+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_python_import_func to 2025-05-05 21:30:00+00:00, run_after=2025-05-06 21:30:00+00:00
+[2025-05-06T08:13:01.957+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_python_import_func.py took 0.059 seconds
+[2025-05-06T08:13:32.134+0000] {processor.py:186} INFO - Started process (PID=922) to work on /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:13:32.134+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_python_import_func.py for tasks to queue
+[2025-05-06T08:13:32.136+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:13:32.136+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:13:32.142+0000] {processor.py:925} INFO - DAG(s) 'dags_python_import_func' retrieved from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:13:32.155+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:13:32.154+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-06T08:13:32.171+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:13:32.171+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_python_import_func to 2025-05-05 21:30:00+00:00, run_after=2025-05-06 21:30:00+00:00
+[2025-05-06T08:13:32.182+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_python_import_func.py took 0.055 seconds
+[2025-05-06T08:14:02.241+0000] {processor.py:186} INFO - Started process (PID=992) to work on /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:14:02.249+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_python_import_func.py for tasks to queue
+[2025-05-06T08:14:02.251+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:14:02.251+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:14:02.258+0000] {processor.py:925} INFO - DAG(s) 'dags_python_import_func' retrieved from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:14:02.274+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:14:02.274+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-06T08:14:02.295+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:14:02.295+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_python_import_func to 2025-05-05 21:30:00+00:00, run_after=2025-05-06 21:30:00+00:00
+[2025-05-06T08:14:02.309+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_python_import_func.py took 0.073 seconds
+[2025-05-06T08:14:32.569+0000] {processor.py:186} INFO - Started process (PID=1062) to work on /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:14:32.571+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_python_import_func.py for tasks to queue
+[2025-05-06T08:14:32.573+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:14:32.573+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:14:32.580+0000] {processor.py:925} INFO - DAG(s) 'dags_python_import_func' retrieved from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:14:32.595+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:14:32.595+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-06T08:14:32.615+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:14:32.615+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_python_import_func to 2025-05-05 21:30:00+00:00, run_after=2025-05-06 21:30:00+00:00
+[2025-05-06T08:14:32.630+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_python_import_func.py took 0.065 seconds
+[2025-05-06T08:15:03.167+0000] {processor.py:186} INFO - Started process (PID=1132) to work on /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:15:03.167+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_python_import_func.py for tasks to queue
+[2025-05-06T08:15:03.169+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:15:03.169+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:15:03.176+0000] {processor.py:925} INFO - DAG(s) 'dags_python_import_func' retrieved from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:15:03.191+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:15:03.191+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-06T08:15:03.211+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:15:03.211+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_python_import_func to 2025-05-05 21:30:00+00:00, run_after=2025-05-06 21:30:00+00:00
+[2025-05-06T08:15:03.229+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_python_import_func.py took 0.066 seconds
+[2025-05-06T08:15:33.368+0000] {processor.py:186} INFO - Started process (PID=1202) to work on /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:15:33.369+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_python_import_func.py for tasks to queue
+[2025-05-06T08:15:33.371+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:15:33.371+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:15:33.377+0000] {processor.py:925} INFO - DAG(s) 'dags_python_import_func' retrieved from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:15:33.392+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:15:33.392+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-06T08:15:33.412+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:15:33.412+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_python_import_func to 2025-05-05 21:30:00+00:00, run_after=2025-05-06 21:30:00+00:00
+[2025-05-06T08:15:33.428+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_python_import_func.py took 0.065 seconds
+[2025-05-06T08:16:04.195+0000] {processor.py:186} INFO - Started process (PID=1272) to work on /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:16:04.196+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_python_import_func.py for tasks to queue
+[2025-05-06T08:16:04.199+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:16:04.199+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:16:04.207+0000] {processor.py:925} INFO - DAG(s) 'dags_python_import_func' retrieved from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:16:04.222+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:16:04.222+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-06T08:16:04.245+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:16:04.245+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_python_import_func to 2025-05-05 21:30:00+00:00, run_after=2025-05-06 21:30:00+00:00
+[2025-05-06T08:16:04.265+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_python_import_func.py took 0.077 seconds
+[2025-05-06T08:16:34.872+0000] {processor.py:186} INFO - Started process (PID=1342) to work on /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:16:34.881+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_python_import_func.py for tasks to queue
+[2025-05-06T08:16:34.883+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:16:34.882+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:16:34.889+0000] {processor.py:925} INFO - DAG(s) 'dags_python_import_func' retrieved from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:16:34.904+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:16:34.904+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-06T08:16:34.924+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:16:34.924+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_python_import_func to 2025-05-05 21:30:00+00:00, run_after=2025-05-06 21:30:00+00:00
+[2025-05-06T08:16:34.939+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_python_import_func.py took 0.071 seconds
+[2025-05-06T08:17:05.654+0000] {processor.py:186} INFO - Started process (PID=1412) to work on /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:17:05.662+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_python_import_func.py for tasks to queue
+[2025-05-06T08:17:05.665+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:17:05.664+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:17:05.671+0000] {processor.py:925} INFO - DAG(s) 'dags_python_import_func' retrieved from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:17:05.689+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:17:05.689+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-06T08:17:05.712+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:17:05.712+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_python_import_func to 2025-05-05 21:30:00+00:00, run_after=2025-05-06 21:30:00+00:00
+[2025-05-06T08:17:05.732+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_python_import_func.py took 0.085 seconds
+[2025-05-06T08:17:35.856+0000] {processor.py:186} INFO - Started process (PID=1482) to work on /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:17:35.856+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_python_import_func.py for tasks to queue
+[2025-05-06T08:17:35.859+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:17:35.859+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:17:35.868+0000] {processor.py:925} INFO - DAG(s) 'dags_python_import_func' retrieved from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:17:35.885+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:17:35.885+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-06T08:17:35.913+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:17:35.913+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_python_import_func to 2025-05-05 21:30:00+00:00, run_after=2025-05-06 21:30:00+00:00
+[2025-05-06T08:17:35.940+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_python_import_func.py took 0.089 seconds
+[2025-05-06T08:18:06.635+0000] {processor.py:186} INFO - Started process (PID=1552) to work on /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:18:06.644+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_python_import_func.py for tasks to queue
+[2025-05-06T08:18:06.646+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:18:06.646+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:18:06.652+0000] {processor.py:925} INFO - DAG(s) 'dags_python_import_func' retrieved from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:18:06.666+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:18:06.666+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-06T08:18:06.691+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:18:06.691+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_python_import_func to 2025-05-05 21:30:00+00:00, run_after=2025-05-06 21:30:00+00:00
+[2025-05-06T08:18:06.706+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_python_import_func.py took 0.075 seconds
+[2025-05-06T08:18:37.329+0000] {processor.py:186} INFO - Started process (PID=1622) to work on /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:18:37.331+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_python_import_func.py for tasks to queue
+[2025-05-06T08:18:37.333+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:18:37.333+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:18:37.339+0000] {processor.py:925} INFO - DAG(s) 'dags_python_import_func' retrieved from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:18:37.353+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:18:37.352+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-06T08:18:37.369+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:18:37.369+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_python_import_func to 2025-05-05 21:30:00+00:00, run_after=2025-05-06 21:30:00+00:00
+[2025-05-06T08:18:37.385+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_python_import_func.py took 0.059 seconds
+[2025-05-06T08:19:08.242+0000] {processor.py:186} INFO - Started process (PID=1692) to work on /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:19:08.243+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_python_import_func.py for tasks to queue
+[2025-05-06T08:19:08.244+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:19:08.244+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:19:08.251+0000] {processor.py:925} INFO - DAG(s) 'dags_python_import_func' retrieved from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:19:08.265+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:19:08.264+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-06T08:19:08.283+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:19:08.282+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_python_import_func to 2025-05-05 21:30:00+00:00, run_after=2025-05-06 21:30:00+00:00
+[2025-05-06T08:19:08.298+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_python_import_func.py took 0.060 seconds
+[2025-05-06T08:19:38.892+0000] {processor.py:186} INFO - Started process (PID=1762) to work on /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:19:38.894+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_python_import_func.py for tasks to queue
+[2025-05-06T08:19:38.896+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:19:38.896+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:19:38.903+0000] {processor.py:925} INFO - DAG(s) 'dags_python_import_func' retrieved from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:19:38.915+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:19:38.915+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-06T08:19:38.932+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:19:38.932+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_python_import_func to 2025-05-05 21:30:00+00:00, run_after=2025-05-06 21:30:00+00:00
+[2025-05-06T08:19:38.947+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_python_import_func.py took 0.058 seconds
+[2025-05-06T08:20:09.712+0000] {processor.py:186} INFO - Started process (PID=1832) to work on /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:20:09.714+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_python_import_func.py for tasks to queue
+[2025-05-06T08:20:09.716+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:20:09.716+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:20:09.723+0000] {processor.py:925} INFO - DAG(s) 'dags_python_import_func' retrieved from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:20:09.737+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:20:09.737+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-06T08:20:09.755+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:20:09.755+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_python_import_func to 2025-05-05 21:30:00+00:00, run_after=2025-05-06 21:30:00+00:00
+[2025-05-06T08:20:09.769+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_python_import_func.py took 0.062 seconds
+[2025-05-06T08:20:40.643+0000] {processor.py:186} INFO - Started process (PID=1908) to work on /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:20:40.661+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_python_import_func.py for tasks to queue
+[2025-05-06T08:20:40.662+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:20:40.662+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:20:40.669+0000] {processor.py:925} INFO - DAG(s) 'dags_python_import_func' retrieved from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:20:40.681+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:20:40.680+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-06T08:20:40.696+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:20:40.696+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_python_import_func to 2025-05-05 21:30:00+00:00, run_after=2025-05-06 21:30:00+00:00
+[2025-05-06T08:20:40.709+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_python_import_func.py took 0.070 seconds
+[2025-05-06T08:21:11.513+0000] {processor.py:186} INFO - Started process (PID=1978) to work on /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:21:11.514+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_python_import_func.py for tasks to queue
+[2025-05-06T08:21:11.516+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:21:11.516+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:21:11.524+0000] {processor.py:925} INFO - DAG(s) 'dags_python_import_func' retrieved from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:21:11.538+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:21:11.537+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-06T08:21:11.558+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:21:11.558+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_python_import_func to 2025-05-05 21:30:00+00:00, run_after=2025-05-06 21:30:00+00:00
+[2025-05-06T08:21:11.574+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_python_import_func.py took 0.065 seconds
+[2025-05-06T08:21:42.382+0000] {processor.py:186} INFO - Started process (PID=2048) to work on /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:21:42.384+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_python_import_func.py for tasks to queue
+[2025-05-06T08:21:42.386+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:21:42.386+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:21:42.393+0000] {processor.py:925} INFO - DAG(s) 'dags_python_import_func' retrieved from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:21:42.408+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:21:42.408+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-06T08:21:42.426+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:21:42.425+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_python_import_func to 2025-05-05 21:30:00+00:00, run_after=2025-05-06 21:30:00+00:00
+[2025-05-06T08:21:42.443+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_python_import_func.py took 0.065 seconds
+[2025-05-06T08:22:12.729+0000] {processor.py:186} INFO - Started process (PID=2118) to work on /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:22:12.729+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_python_import_func.py for tasks to queue
+[2025-05-06T08:22:12.731+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:22:12.731+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:22:12.738+0000] {processor.py:925} INFO - DAG(s) 'dags_python_import_func' retrieved from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:22:12.752+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:22:12.751+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-06T08:22:12.772+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:22:12.772+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_python_import_func to 2025-05-05 21:30:00+00:00, run_after=2025-05-06 21:30:00+00:00
+[2025-05-06T08:22:12.789+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_python_import_func.py took 0.065 seconds
+[2025-05-06T08:22:43.127+0000] {processor.py:186} INFO - Started process (PID=2188) to work on /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:22:43.137+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_python_import_func.py for tasks to queue
+[2025-05-06T08:22:43.138+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:22:43.138+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:22:43.145+0000] {processor.py:925} INFO - DAG(s) 'dags_python_import_func' retrieved from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:22:43.161+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:22:43.160+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-06T08:22:43.181+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:22:43.181+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_python_import_func to 2025-05-05 21:30:00+00:00, run_after=2025-05-06 21:30:00+00:00
+[2025-05-06T08:22:43.198+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_python_import_func.py took 0.075 seconds
+[2025-05-06T08:23:13.860+0000] {processor.py:186} INFO - Started process (PID=2258) to work on /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:23:13.867+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_python_import_func.py for tasks to queue
+[2025-05-06T08:23:13.869+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:23:13.869+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:23:13.875+0000] {processor.py:925} INFO - DAG(s) 'dags_python_import_func' retrieved from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:23:13.888+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:23:13.888+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-06T08:23:13.905+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:23:13.905+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_python_import_func to 2025-05-05 21:30:00+00:00, run_after=2025-05-06 21:30:00+00:00
+[2025-05-06T08:23:13.930+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_python_import_func.py took 0.074 seconds
+[2025-05-06T08:23:44.450+0000] {processor.py:186} INFO - Started process (PID=2328) to work on /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:23:44.452+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_python_import_func.py for tasks to queue
+[2025-05-06T08:23:44.455+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:23:44.455+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:23:44.464+0000] {processor.py:925} INFO - DAG(s) 'dags_python_import_func' retrieved from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:23:44.478+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:23:44.478+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-06T08:23:44.497+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:23:44.497+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_python_import_func to 2025-05-05 21:30:00+00:00, run_after=2025-05-06 21:30:00+00:00
+[2025-05-06T08:23:44.512+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_python_import_func.py took 0.067 seconds
+[2025-05-06T08:24:14.544+0000] {processor.py:186} INFO - Started process (PID=2398) to work on /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:24:14.545+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_python_import_func.py for tasks to queue
+[2025-05-06T08:24:14.547+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:24:14.546+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:24:14.553+0000] {processor.py:925} INFO - DAG(s) 'dags_python_import_func' retrieved from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:24:14.566+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:24:14.566+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-06T08:24:14.582+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:24:14.582+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_python_import_func to 2025-05-05 21:30:00+00:00, run_after=2025-05-06 21:30:00+00:00
+[2025-05-06T08:24:14.595+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_python_import_func.py took 0.055 seconds
+[2025-05-06T08:24:44.664+0000] {processor.py:186} INFO - Started process (PID=2468) to work on /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:24:44.666+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_python_import_func.py for tasks to queue
+[2025-05-06T08:24:44.668+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:24:44.668+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:24:44.674+0000] {processor.py:925} INFO - DAG(s) 'dags_python_import_func' retrieved from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:24:44.689+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:24:44.689+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-06T08:24:44.707+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:24:44.707+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_python_import_func to 2025-05-05 21:30:00+00:00, run_after=2025-05-06 21:30:00+00:00
+[2025-05-06T08:24:44.724+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_python_import_func.py took 0.067 seconds
+[2025-05-06T08:25:15.408+0000] {processor.py:186} INFO - Started process (PID=2538) to work on /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:25:15.409+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_python_import_func.py for tasks to queue
+[2025-05-06T08:25:15.411+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:25:15.411+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:25:15.419+0000] {processor.py:925} INFO - DAG(s) 'dags_python_import_func' retrieved from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:25:15.437+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:25:15.436+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-06T08:25:15.456+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:25:15.456+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_python_import_func to 2025-05-05 21:30:00+00:00, run_after=2025-05-06 21:30:00+00:00
+[2025-05-06T08:25:15.473+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_python_import_func.py took 0.070 seconds
+[2025-05-06T08:25:45.677+0000] {processor.py:186} INFO - Started process (PID=2608) to work on /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:25:45.684+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_python_import_func.py for tasks to queue
+[2025-05-06T08:25:45.686+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:25:45.686+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:25:45.696+0000] {processor.py:925} INFO - DAG(s) 'dags_python_import_func' retrieved from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:25:45.713+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:25:45.712+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-06T08:25:45.732+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:25:45.732+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_python_import_func to 2025-05-05 21:30:00+00:00, run_after=2025-05-06 21:30:00+00:00
+[2025-05-06T08:25:45.747+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_python_import_func.py took 0.074 seconds
+[2025-05-06T08:26:16.077+0000] {processor.py:186} INFO - Started process (PID=2678) to work on /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:26:16.078+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_python_import_func.py for tasks to queue
+[2025-05-06T08:26:16.079+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:26:16.079+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:26:16.085+0000] {processor.py:925} INFO - DAG(s) 'dags_python_import_func' retrieved from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:26:16.098+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:26:16.098+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-06T08:26:16.116+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:26:16.116+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_python_import_func to 2025-05-05 21:30:00+00:00, run_after=2025-05-06 21:30:00+00:00
+[2025-05-06T08:26:16.134+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_python_import_func.py took 0.060 seconds
+[2025-05-06T08:26:46.284+0000] {processor.py:186} INFO - Started process (PID=2748) to work on /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:26:46.285+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_python_import_func.py for tasks to queue
+[2025-05-06T08:26:46.287+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:26:46.287+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:26:46.293+0000] {processor.py:925} INFO - DAG(s) 'dags_python_import_func' retrieved from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:26:46.305+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:26:46.305+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-06T08:26:46.325+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:26:46.325+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_python_import_func to 2025-05-05 21:30:00+00:00, run_after=2025-05-06 21:30:00+00:00
+[2025-05-06T08:26:46.340+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_python_import_func.py took 0.060 seconds
+[2025-05-06T08:27:17.000+0000] {processor.py:186} INFO - Started process (PID=2806) to work on /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:27:17.002+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_python_import_func.py for tasks to queue
+[2025-05-06T08:27:17.004+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:27:17.003+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:27:17.012+0000] {processor.py:925} INFO - DAG(s) 'dags_python_import_func' retrieved from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:27:17.027+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:27:17.027+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-06T08:27:17.047+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:27:17.047+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_python_import_func to 2025-05-05 21:30:00+00:00, run_after=2025-05-06 21:30:00+00:00
+[2025-05-06T08:27:17.062+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_python_import_func.py took 0.067 seconds
+[2025-05-06T08:27:47.182+0000] {processor.py:186} INFO - Started process (PID=2870) to work on /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:27:47.191+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_python_import_func.py for tasks to queue
+[2025-05-06T08:27:47.192+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:27:47.192+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:27:47.199+0000] {processor.py:925} INFO - DAG(s) 'dags_python_import_func' retrieved from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:27:47.214+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:27:47.214+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-06T08:27:47.239+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:27:47.239+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_python_import_func to 2025-05-05 21:30:00+00:00, run_after=2025-05-06 21:30:00+00:00
+[2025-05-06T08:27:47.260+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_python_import_func.py took 0.082 seconds
+[2025-05-06T08:28:17.841+0000] {processor.py:186} INFO - Started process (PID=2946) to work on /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:28:17.843+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_python_import_func.py for tasks to queue
+[2025-05-06T08:28:17.844+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:28:17.843+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:28:17.850+0000] {processor.py:925} INFO - DAG(s) 'dags_python_import_func' retrieved from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:28:17.870+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:28:17.869+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-06T08:28:17.892+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:28:17.892+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_python_import_func to 2025-05-05 21:30:00+00:00, run_after=2025-05-06 21:30:00+00:00
+[2025-05-06T08:28:17.909+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_python_import_func.py took 0.072 seconds
+[2025-05-06T08:28:48.071+0000] {processor.py:186} INFO - Started process (PID=3017) to work on /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:28:48.080+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_python_import_func.py for tasks to queue
+[2025-05-06T08:28:48.081+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:28:48.080+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:28:48.087+0000] {processor.py:925} INFO - DAG(s) 'dags_python_import_func' retrieved from /opt/airflow/dags/dags_python_import_func.py
+[2025-05-06T08:28:48.103+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:28:48.102+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-06T08:28:48.120+0000] {logging_mixin.py:190} INFO - [2025-05-06T08:28:48.120+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_python_import_func to 2025-05-05 21:30:00+00:00, run_after=2025-05-06 21:30:00+00:00
+[2025-05-06T08:28:48.134+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_python_import_func.py took 0.067 seconds

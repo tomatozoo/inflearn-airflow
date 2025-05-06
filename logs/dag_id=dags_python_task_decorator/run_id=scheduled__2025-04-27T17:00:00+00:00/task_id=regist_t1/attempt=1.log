@@ -1,0 +1,31 @@
+[2025-05-06T08:27:35.541+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-05-06T08:27:35.553+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dags_python_task_decorator.regist_t1 scheduled__2025-04-27T17:00:00+00:00 [queued]>
+[2025-05-06T08:27:35.559+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dags_python_task_decorator.regist_t1 scheduled__2025-04-27T17:00:00+00:00 [queued]>
+[2025-05-06T08:27:35.560+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2025-05-06T08:27:35.574+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): regist_t1> on 2025-04-27 17:00:00+00:00
+[2025-05-06T08:27:35.582+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=385) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-05-06T08:27:35.583+0000] {standard_task_runner.py:72} INFO - Started process 387 to run task
+[2025-05-06T08:27:35.584+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'dags_python_task_decorator', 'regist_t1', 'scheduled__2025-04-27T17:00:00+00:00', '--job-id', '34', '--raw', '--subdir', 'DAGS_FOLDER/dags_python_with_op_args.py', '--cfg-path', '/tmp/tmpgudevd5v']
+[2025-05-06T08:27:35.586+0000] {standard_task_runner.py:105} INFO - Job 34: Subtask regist_t1
+[2025-05-06T08:27:35.893+0000] {task_command.py:467} INFO - Running <TaskInstance: dags_python_task_decorator.regist_t1 scheduled__2025-04-27T17:00:00+00:00 [running]> on host 11348a8299f1
+[2025-05-06T08:27:35.983+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dags_python_task_decorator' AIRFLOW_CTX_TASK_ID='regist_t1' AIRFLOW_CTX_EXECUTION_DATE='2025-04-27T17:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-04-27T17:00:00+00:00'
+[2025-05-06T08:27:35.984+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-05-06T08:27:35.985+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-05-06T08:27:35.985+0000] {logging_mixin.py:190} INFO - Current task name:regist_t1 state:running start_date:2025-05-06 08:27:35.554141+00:00
+[2025-05-06T08:27:35.985+0000] {logging_mixin.py:190} INFO - Dag name:dags_python_task_decorator and current dag run status:running
+[2025-05-06T08:27:35.985+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-05-06T08:27:35.986+0000] {logging_mixin.py:190} INFO - 이름: yj
+[2025-05-06T08:27:35.986+0000] {logging_mixin.py:190} INFO - 성별: woman
+[2025-05-06T08:27:35.986+0000] {logging_mixin.py:190} INFO - 기타: ('kr',)
+[2025-05-06T08:27:35.986+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-05-06T08:27:35.995+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-05-06T08:27:35.995+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=dags_python_task_decorator, task_id=regist_t1, run_id=scheduled__2025-04-27T17:00:00+00:00, execution_date=20250427T170000, start_date=20250506T082735, end_date=20250506T082735
+[2025-05-06T08:27:36.024+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-05-06T08:27:36.025+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-05-06T08:27:36.025+0000] {logging_mixin.py:190} INFO - Dag name:dags_python_task_decorator queued_at:2025-05-06 08:27:34.626532+00:00
+[2025-05-06T08:27:36.025+0000] {logging_mixin.py:190} INFO - Task hostname:11348a8299f1 operator:PythonOperator
+[2025-05-06T08:27:36.042+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-05-06T08:27:36.205+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-05-06T08:27:36.209+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

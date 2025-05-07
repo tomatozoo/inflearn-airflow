@@ -1,0 +1,26 @@
+[2025-05-07T04:40:19.026+0000] {processor.py:186} INFO - Started process (PID=50117) to work on /opt/airflow/dags/dags_bash_with_macro_eg2.py
+[2025-05-07T04:40:19.027+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_bash_with_macro_eg2.py for tasks to queue
+[2025-05-07T04:40:19.029+0000] {logging_mixin.py:190} INFO - [2025-05-07T04:40:19.028+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_bash_with_macro_eg2.py
+[2025-05-07T04:40:19.036+0000] {logging_mixin.py:190} INFO - [2025-05-07T04:40:19.034+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dags_bash_with_macro_eg2.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_bash_with_macro_eg2.py", line 14, in <module>
+    bash_task_2 = BashOperator(
+                  ^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/bash.py", line 166, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 959, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to BashOperator (task_id: bash_task_2). Invalid arguments were:
+**kwargs: {'end': {'START_DATE': '{{ data_interval_start.in_timezone("Asia/Seoul")+macros.dateutil.relativedelta.relativedelta(days=-19)) | ds }}', 'END_DATE': '{{ (data_interval_end.in_timezone("Asia/Seoul")+macros.dateutil.relativedelta.relativedelta(days=-14)) | ds}}'}}
+[2025-05-07T04:40:19.037+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_bash_with_macro_eg2.py
+[2025-05-07T04:40:19.060+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_bash_with_macro_eg2.py took 0.041 seconds

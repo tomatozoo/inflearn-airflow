@@ -1,0 +1,30 @@
+[2025-05-07T05:40:36.647+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-05-07T05:40:36.804+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dags_python_with_macro.task_direct_calculation manual__2025-05-07T05:40:32.522432+00:00 [queued]>
+[2025-05-07T05:40:36.813+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dags_python_with_macro.task_direct_calculation manual__2025-05-07T05:40:32.522432+00:00 [queued]>
+[2025-05-07T05:40:36.813+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2025-05-07T05:40:36.824+0000] {taskinstance.py:2890} INFO - Executing <Task(_PythonDecoratedOperator): task_direct_calculation> on 2025-05-07 05:40:32.522432+00:00
+[2025-05-07T05:40:36.832+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=5657) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-05-07T05:40:36.833+0000] {standard_task_runner.py:72} INFO - Started process 5659 to run task
+[2025-05-07T05:40:36.834+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'dags_python_with_macro', 'task_direct_calculation', 'manual__2025-05-07T05:40:32.522432+00:00', '--job-id', '63', '--raw', '--subdir', 'DAGS_FOLDER/dags_python_with_macro.py', '--cfg-path', '/tmp/tmp446dgskz']
+[2025-05-07T05:40:36.835+0000] {standard_task_runner.py:105} INFO - Job 63: Subtask task_direct_calculation
+[2025-05-07T05:40:36.871+0000] {task_command.py:467} INFO - Running <TaskInstance: dags_python_with_macro.task_direct_calculation manual__2025-05-07T05:40:32.522432+00:00 [running]> on host 11348a8299f1
+[2025-05-07T05:40:36.944+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dags_python_with_macro' AIRFLOW_CTX_TASK_ID='task_direct_calculation' AIRFLOW_CTX_EXECUTION_DATE='2025-05-07T05:40:32.522432+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-05-07T05:40:32.522432+00:00'
+[2025-05-07T05:40:36.945+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-05-07T05:40:36.946+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-05-07T05:40:36.946+0000] {logging_mixin.py:190} INFO - Current task name:task_direct_calculation state:running start_date:2025-05-07 05:40:36.804408+00:00
+[2025-05-07T05:40:36.946+0000] {logging_mixin.py:190} INFO - Dag name:dags_python_with_macro and current dag run status:running
+[2025-05-07T05:40:36.946+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-05-07T05:40:36.949+0000] {logging_mixin.py:190} INFO - 2025-04-01
+[2025-05-07T05:40:36.949+0000] {logging_mixin.py:190} INFO - 2025-04-30
+[2025-05-07T05:40:36.950+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-05-07T05:40:36.957+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-05-07T05:40:36.958+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=dags_python_with_macro, task_id=task_direct_calculation, run_id=manual__2025-05-07T05:40:32.522432+00:00, execution_date=20250507T054032, start_date=20250507T054036, end_date=20250507T054036
+[2025-05-07T05:40:36.977+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-05-07T05:40:36.978+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-05-07T05:40:36.978+0000] {logging_mixin.py:190} INFO - Dag name:dags_python_with_macro queued_at:2025-05-07 05:40:32.541124+00:00
+[2025-05-07T05:40:36.978+0000] {logging_mixin.py:190} INFO - Task hostname:11348a8299f1 operator:_PythonDecoratedOperator
+[2025-05-07T05:40:37.009+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-05-07T05:40:37.022+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-05-07T05:40:37.024+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

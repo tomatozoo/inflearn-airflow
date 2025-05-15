@@ -45,3 +45,6 @@ BranchPythonOperator(
     python_callable (여기에 task 선택 로직을 구현)
 )
 
+
+## Task 분기처리하기 - with task.branch
+- task.branch decorator가 있다 @task.branch

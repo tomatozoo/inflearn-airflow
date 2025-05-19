@@ -1,0 +1,27 @@
+[2025-05-19T00:18:23.583+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-05-19T00:18:23.641+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dags_python_with_xcom_eg1.python_xcom_push_task1 scheduled__2025-05-11T21:30:00+00:00 [queued]>
+[2025-05-19T00:18:23.965+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dags_python_with_xcom_eg1.python_xcom_push_task1 scheduled__2025-05-11T21:30:00+00:00 [queued]>
+[2025-05-19T00:18:23.965+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2025-05-19T00:18:23.996+0000] {taskinstance.py:2890} INFO - Executing <Task(_PythonDecoratedOperator): python_xcom_push_task1> on 2025-05-11 21:30:00+00:00
+[2025-05-19T00:18:24.015+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=77) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-05-19T00:18:24.019+0000] {standard_task_runner.py:72} INFO - Started process 109 to run task
+[2025-05-19T00:18:24.030+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'dags_python_with_xcom_eg1', 'python_xcom_push_task1', 'scheduled__2025-05-11T21:30:00+00:00', '--job-id', '173', '--raw', '--subdir', 'DAGS_FOLDER/dags_python_with_xcom_eg1.py', '--cfg-path', '/tmp/tmp3ktdnhvn']
+[2025-05-19T00:18:24.031+0000] {standard_task_runner.py:105} INFO - Job 173: Subtask python_xcom_push_task1
+[2025-05-19T00:18:24.163+0000] {task_command.py:467} INFO - Running <TaskInstance: dags_python_with_xcom_eg1.python_xcom_push_task1 scheduled__2025-05-11T21:30:00+00:00 [running]> on host 11348a8299f1
+[2025-05-19T00:18:24.389+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dags_python_with_xcom_eg1' AIRFLOW_CTX_TASK_ID='python_xcom_push_task1' AIRFLOW_CTX_EXECUTION_DATE='2025-05-11T21:30:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-05-11T21:30:00+00:00'
+[2025-05-19T00:18:24.395+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-05-19T00:18:24.396+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-05-19T00:18:24.397+0000] {logging_mixin.py:190} INFO - Current task name:python_xcom_push_task1 state:running start_date:2025-05-19 00:18:23.642067+00:00
+[2025-05-19T00:18:24.397+0000] {logging_mixin.py:190} INFO - Dag name:dags_python_with_xcom_eg1 and current dag run status:running
+[2025-05-19T00:18:24.397+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-05-19T00:18:24.473+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-05-19T00:18:24.493+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-05-19T00:18:24.495+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=dags_python_with_xcom_eg1, task_id=python_xcom_push_task1, run_id=scheduled__2025-05-11T21:30:00+00:00, execution_date=20250511T213000, start_date=20250519T001823, end_date=20250519T001824
+[2025-05-19T00:18:24.563+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-05-19T00:18:24.564+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-05-19T00:18:24.564+0000] {logging_mixin.py:190} INFO - Dag name:dags_python_with_xcom_eg1 queued_at:2025-05-19 00:18:13.135121+00:00
+[2025-05-19T00:18:24.565+0000] {logging_mixin.py:190} INFO - Task hostname:11348a8299f1 operator:_PythonDecoratedOperator
+[2025-05-19T00:18:24.613+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-05-19T00:18:24.632+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

@@ -1,0 +1,123 @@
+[2025-05-12T08:35:07.743+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-05-12T08:35:07.776+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dags_bash_python_with_xcom.bash_pull manual__2025-05-12T08:35:01.816372+00:00 [queued]>
+[2025-05-12T08:35:07.792+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dags_bash_python_with_xcom.bash_pull manual__2025-05-12T08:35:01.816372+00:00 [queued]>
+[2025-05-12T08:35:07.792+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2025-05-12T08:35:08.005+0000] {taskinstance.py:2890} INFO - Executing <Task(BashOperator): bash_pull> on 2025-05-12 08:35:01.816372+00:00
+[2025-05-12T08:35:08.016+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=238) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-05-12T08:35:08.018+0000] {standard_task_runner.py:72} INFO - Started process 241 to run task
+[2025-05-12T08:35:08.019+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'dags_bash_python_with_xcom', 'bash_pull', 'manual__2025-05-12T08:35:01.816372+00:00', '--job-id', '162', '--raw', '--subdir', 'DAGS_FOLDER/dags_bash_python_with_xcom.py', '--cfg-path', '/tmp/tmpk4u90qm7']
+[2025-05-12T08:35:08.020+0000] {standard_task_runner.py:105} INFO - Job 162: Subtask bash_pull
+[2025-05-12T08:35:08.118+0000] {task_command.py:467} INFO - Running <TaskInstance: dags_bash_python_with_xcom.bash_pull manual__2025-05-12T08:35:01.816372+00:00 [running]> on host 11348a8299f1
+[2025-05-12T08:35:08.273+0000] {abstractoperator.py:783} ERROR - Exception rendering Jinja template for task 'bash_pull', field 'env'. Template: {'STATUS': '{{ ti.xcom_pull(task_ids="python_push")["status"]}}', 'DATA': '{{ti.xcom_pull(task_ids="python_push")["data"]}}', 'OPTIONS_CNT': '{{ti.xcom_pull(task_ids="python_push")["options_cnt]}}'}
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/abstractoperator.py", line 775, in _do_render_template_fields
+    rendered_content = self.render_template(
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 185, in render_template
+    return {k: self.render_template(v, context, jinja_env, oids) for k, v in value.items()}
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 170, in render_template
+    template = jinja_env.from_string(value)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/environment.py", line 1111, in from_string
+    return cls.from_code(self, self.compile(source), gs, None)
+                               ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/environment.py", line 771, in compile
+    self.handle_exception(source=source_hint)
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "<unknown>", line 1, in template
+jinja2.exceptions.TemplateSyntaxError: unexpected char '"' at 39
+[2025-05-12T08:35:08.276+0000] {taskinstance.py:3313} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 274, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3117, in _execute_task_with_callbacks
+    task_orig = self.render_templates(context=context, jinja_env=jinja_env)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3540, in render_templates
+    original_task.render_template_fields(context, jinja_env)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 1442, in render_template_fields
+    self._do_render_template_fields(self, self.template_fields, context, jinja_env, set())
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/abstractoperator.py", line 775, in _do_render_template_fields
+    rendered_content = self.render_template(
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 185, in render_template
+    return {k: self.render_template(v, context, jinja_env, oids) for k, v in value.items()}
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 170, in render_template
+    template = jinja_env.from_string(value)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/environment.py", line 1111, in from_string
+    return cls.from_code(self, self.compile(source), gs, None)
+                               ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/environment.py", line 771, in compile
+    self.handle_exception(source=source_hint)
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "<unknown>", line 1, in template
+jinja2.exceptions.TemplateSyntaxError: unexpected char '"' at 39
+[2025-05-12T08:35:08.288+0000] {logging_mixin.py:190} INFO - Task instance in failure state
+[2025-05-12T08:35:08.289+0000] {logging_mixin.py:190} INFO - Task start:2025-05-12 08:35:07.777148+00:00 end:2025-05-12 08:35:08.287681+00:00 duration:0.510533
+[2025-05-12T08:35:08.289+0000] {logging_mixin.py:190} INFO - Task:<Task(BashOperator): bash_pull> dag:<DAG: dags_bash_python_with_xcom> dagrun:<DagRun dags_bash_python_with_xcom @ 2025-05-12 08:35:01.816372+00:00: manual__2025-05-12T08:35:01.816372+00:00, state:running, queued_at: 2025-05-12 08:35:01.838313+00:00. externally triggered: True>
+[2025-05-12T08:35:08.290+0000] {logging_mixin.py:190} INFO - Failure caused by unexpected char '"' at 39
+[2025-05-12T08:35:08.290+0000] {taskinstance.py:1226} INFO - Marking task as FAILED. dag_id=dags_bash_python_with_xcom, task_id=bash_pull, run_id=manual__2025-05-12T08:35:01.816372+00:00, execution_date=20250512T083501, start_date=20250512T083507, end_date=20250512T083508
+[2025-05-12T08:35:08.338+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-05-12T08:35:08.340+0000] {standard_task_runner.py:124} ERROR - Failed to execute job 162 for task bash_pull (unexpected char '"' at 39; 241)
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3006, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 274, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3117, in _execute_task_with_callbacks
+    task_orig = self.render_templates(context=context, jinja_env=jinja_env)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3540, in render_templates
+    original_task.render_template_fields(context, jinja_env)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 1442, in render_template_fields
+    self._do_render_template_fields(self, self.template_fields, context, jinja_env, set())
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/abstractoperator.py", line 775, in _do_render_template_fields
+    rendered_content = self.render_template(
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 185, in render_template
+    return {k: self.render_template(v, context, jinja_env, oids) for k, v in value.items()}
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 170, in render_template
+    template = jinja_env.from_string(value)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/environment.py", line 1111, in from_string
+    return cls.from_code(self, self.compile(source), gs, None)
+                               ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/environment.py", line 771, in compile
+    self.handle_exception(source=source_hint)
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "<unknown>", line 1, in template
+jinja2.exceptions.TemplateSyntaxError: unexpected char '"' at 39
+[2025-05-12T08:35:08.358+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2025-05-12T08:35:08.387+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-05-12T08:35:08.391+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

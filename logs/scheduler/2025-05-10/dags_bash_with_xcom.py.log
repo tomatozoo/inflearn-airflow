@@ -1,0 +1,154 @@
+[2025-05-10T01:19:39.867+0000] {processor.py:186} INFO - Started process (PID=67117) to work on /opt/airflow/dags/dags_bash_with_xcom.py
+[2025-05-10T01:19:39.868+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_bash_with_xcom.py for tasks to queue
+[2025-05-10T01:19:39.869+0000] {logging_mixin.py:190} INFO - [2025-05-10T01:19:39.869+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_bash_with_xcom.py
+[2025-05-10T01:19:39.875+0000] {processor.py:925} INFO - DAG(s) 'dags_bash_with_xcom' retrieved from /opt/airflow/dags/dags_bash_with_xcom.py
+[2025-05-10T01:19:39.891+0000] {logging_mixin.py:190} INFO - [2025-05-10T01:19:39.891+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-10T01:19:39.909+0000] {logging_mixin.py:190} INFO - [2025-05-10T01:19:39.908+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_bash_with_xcom to 2025-05-02 15:10:00+00:00, run_after=2025-06-06 15:10:00+00:00
+[2025-05-10T01:19:39.925+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_bash_with_xcom.py took 0.063 seconds
+[2025-05-10T01:20:10.860+0000] {processor.py:186} INFO - Started process (PID=67191) to work on /opt/airflow/dags/dags_bash_with_xcom.py
+[2025-05-10T01:20:10.861+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_bash_with_xcom.py for tasks to queue
+[2025-05-10T01:20:10.862+0000] {logging_mixin.py:190} INFO - [2025-05-10T01:20:10.862+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_bash_with_xcom.py
+[2025-05-10T01:20:10.867+0000] {processor.py:925} INFO - DAG(s) 'dags_bash_with_xcom' retrieved from /opt/airflow/dags/dags_bash_with_xcom.py
+[2025-05-10T01:20:10.887+0000] {logging_mixin.py:190} INFO - [2025-05-10T01:20:10.887+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-10T01:20:10.912+0000] {logging_mixin.py:190} INFO - [2025-05-10T01:20:10.911+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_bash_with_xcom to 2025-05-02 15:10:00+00:00, run_after=2025-06-06 15:10:00+00:00
+[2025-05-10T01:20:10.933+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_bash_with_xcom.py took 0.081 seconds
+[2025-05-10T01:20:41.333+0000] {processor.py:186} INFO - Started process (PID=67268) to work on /opt/airflow/dags/dags_bash_with_xcom.py
+[2025-05-10T01:20:41.334+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_bash_with_xcom.py for tasks to queue
+[2025-05-10T01:20:41.335+0000] {logging_mixin.py:190} INFO - [2025-05-10T01:20:41.334+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_bash_with_xcom.py
+[2025-05-10T01:20:41.339+0000] {processor.py:925} INFO - DAG(s) 'dags_bash_with_xcom' retrieved from /opt/airflow/dags/dags_bash_with_xcom.py
+[2025-05-10T01:20:41.352+0000] {logging_mixin.py:190} INFO - [2025-05-10T01:20:41.352+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-10T01:20:41.369+0000] {logging_mixin.py:190} INFO - [2025-05-10T01:20:41.369+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_bash_with_xcom to 2025-05-02 15:10:00+00:00, run_after=2025-06-06 15:10:00+00:00
+[2025-05-10T01:20:41.381+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_bash_with_xcom.py took 0.054 seconds
+[2025-05-10T01:21:11.585+0000] {processor.py:186} INFO - Started process (PID=67338) to work on /opt/airflow/dags/dags_bash_with_xcom.py
+[2025-05-10T01:21:11.586+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_bash_with_xcom.py for tasks to queue
+[2025-05-10T01:21:11.586+0000] {logging_mixin.py:190} INFO - [2025-05-10T01:21:11.586+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_bash_with_xcom.py
+[2025-05-10T01:21:11.591+0000] {processor.py:925} INFO - DAG(s) 'dags_bash_with_xcom' retrieved from /opt/airflow/dags/dags_bash_with_xcom.py
+[2025-05-10T01:21:11.609+0000] {logging_mixin.py:190} INFO - [2025-05-10T01:21:11.608+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-10T01:21:11.624+0000] {logging_mixin.py:190} INFO - [2025-05-10T01:21:11.624+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_bash_with_xcom to 2025-05-02 15:10:00+00:00, run_after=2025-06-06 15:10:00+00:00
+[2025-05-10T01:21:11.637+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_bash_with_xcom.py took 0.057 seconds
+[2025-05-10T01:21:42.282+0000] {processor.py:186} INFO - Started process (PID=67420) to work on /opt/airflow/dags/dags_bash_with_xcom.py
+[2025-05-10T01:21:42.290+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_bash_with_xcom.py for tasks to queue
+[2025-05-10T01:21:42.291+0000] {logging_mixin.py:190} INFO - [2025-05-10T01:21:42.290+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_bash_with_xcom.py
+[2025-05-10T01:21:42.295+0000] {processor.py:925} INFO - DAG(s) 'dags_bash_with_xcom' retrieved from /opt/airflow/dags/dags_bash_with_xcom.py
+[2025-05-10T01:21:42.308+0000] {logging_mixin.py:190} INFO - [2025-05-10T01:21:42.308+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-10T01:21:42.323+0000] {logging_mixin.py:190} INFO - [2025-05-10T01:21:42.323+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_bash_with_xcom to 2025-05-02 15:10:00+00:00, run_after=2025-06-06 15:10:00+00:00
+[2025-05-10T01:21:42.337+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_bash_with_xcom.py took 0.063 seconds
+[2025-05-10T01:22:12.998+0000] {processor.py:186} INFO - Started process (PID=67503) to work on /opt/airflow/dags/dags_bash_with_xcom.py
+[2025-05-10T01:22:12.998+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_bash_with_xcom.py for tasks to queue
+[2025-05-10T01:22:13.000+0000] {logging_mixin.py:190} INFO - [2025-05-10T01:22:12.999+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_bash_with_xcom.py
+[2025-05-10T01:22:13.005+0000] {processor.py:925} INFO - DAG(s) 'dags_bash_with_xcom' retrieved from /opt/airflow/dags/dags_bash_with_xcom.py
+[2025-05-10T01:22:13.022+0000] {logging_mixin.py:190} INFO - [2025-05-10T01:22:13.021+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-10T01:22:13.040+0000] {logging_mixin.py:190} INFO - [2025-05-10T01:22:13.040+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_bash_with_xcom to 2025-05-02 15:10:00+00:00, run_after=2025-06-06 15:10:00+00:00
+[2025-05-10T01:22:13.053+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_bash_with_xcom.py took 0.063 seconds
+[2025-05-10T01:22:43.567+0000] {processor.py:186} INFO - Started process (PID=67585) to work on /opt/airflow/dags/dags_bash_with_xcom.py
+[2025-05-10T01:22:43.569+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_bash_with_xcom.py for tasks to queue
+[2025-05-10T01:22:43.570+0000] {logging_mixin.py:190} INFO - [2025-05-10T01:22:43.570+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_bash_with_xcom.py
+[2025-05-10T01:22:43.574+0000] {processor.py:925} INFO - DAG(s) 'dags_bash_with_xcom' retrieved from /opt/airflow/dags/dags_bash_with_xcom.py
+[2025-05-10T01:22:43.591+0000] {logging_mixin.py:190} INFO - [2025-05-10T01:22:43.591+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-10T01:22:43.608+0000] {logging_mixin.py:190} INFO - [2025-05-10T01:22:43.608+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_bash_with_xcom to 2025-05-02 15:10:00+00:00, run_after=2025-06-06 15:10:00+00:00
+[2025-05-10T01:22:43.623+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_bash_with_xcom.py took 0.060 seconds
+[2025-05-10T01:23:14.578+0000] {processor.py:186} INFO - Started process (PID=67667) to work on /opt/airflow/dags/dags_bash_with_xcom.py
+[2025-05-10T01:23:14.584+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_bash_with_xcom.py for tasks to queue
+[2025-05-10T01:23:14.585+0000] {logging_mixin.py:190} INFO - [2025-05-10T01:23:14.585+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_bash_with_xcom.py
+[2025-05-10T01:23:14.589+0000] {processor.py:925} INFO - DAG(s) 'dags_bash_with_xcom' retrieved from /opt/airflow/dags/dags_bash_with_xcom.py
+[2025-05-10T01:23:14.604+0000] {logging_mixin.py:190} INFO - [2025-05-10T01:23:14.604+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-10T01:23:14.620+0000] {logging_mixin.py:190} INFO - [2025-05-10T01:23:14.620+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_bash_with_xcom to 2025-05-02 15:10:00+00:00, run_after=2025-06-06 15:10:00+00:00
+[2025-05-10T01:23:14.633+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_bash_with_xcom.py took 0.060 seconds
+[2025-05-10T01:23:45.260+0000] {processor.py:186} INFO - Started process (PID=67749) to work on /opt/airflow/dags/dags_bash_with_xcom.py
+[2025-05-10T01:23:45.261+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_bash_with_xcom.py for tasks to queue
+[2025-05-10T01:23:45.263+0000] {logging_mixin.py:190} INFO - [2025-05-10T01:23:45.262+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_bash_with_xcom.py
+[2025-05-10T01:23:45.270+0000] {processor.py:925} INFO - DAG(s) 'dags_bash_with_xcom' retrieved from /opt/airflow/dags/dags_bash_with_xcom.py
+[2025-05-10T01:23:45.288+0000] {logging_mixin.py:190} INFO - [2025-05-10T01:23:45.288+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-10T01:23:45.310+0000] {logging_mixin.py:190} INFO - [2025-05-10T01:23:45.310+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_bash_with_xcom to 2025-05-02 15:10:00+00:00, run_after=2025-06-06 15:10:00+00:00
+[2025-05-10T01:23:45.326+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_bash_with_xcom.py took 0.072 seconds
+[2025-05-10T01:24:15.978+0000] {processor.py:186} INFO - Started process (PID=67831) to work on /opt/airflow/dags/dags_bash_with_xcom.py
+[2025-05-10T01:24:15.978+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_bash_with_xcom.py for tasks to queue
+[2025-05-10T01:24:15.979+0000] {logging_mixin.py:190} INFO - [2025-05-10T01:24:15.979+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_bash_with_xcom.py
+[2025-05-10T01:24:15.983+0000] {processor.py:925} INFO - DAG(s) 'dags_bash_with_xcom' retrieved from /opt/airflow/dags/dags_bash_with_xcom.py
+[2025-05-10T01:24:15.998+0000] {logging_mixin.py:190} INFO - [2025-05-10T01:24:15.998+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-10T01:24:16.015+0000] {logging_mixin.py:190} INFO - [2025-05-10T01:24:16.015+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_bash_with_xcom to 2025-05-02 15:10:00+00:00, run_after=2025-06-06 15:10:00+00:00
+[2025-05-10T01:24:16.028+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_bash_with_xcom.py took 0.055 seconds
+[2025-05-10T01:24:46.828+0000] {processor.py:186} INFO - Started process (PID=67913) to work on /opt/airflow/dags/dags_bash_with_xcom.py
+[2025-05-10T01:24:46.829+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_bash_with_xcom.py for tasks to queue
+[2025-05-10T01:24:46.830+0000] {logging_mixin.py:190} INFO - [2025-05-10T01:24:46.830+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_bash_with_xcom.py
+[2025-05-10T01:24:46.835+0000] {processor.py:925} INFO - DAG(s) 'dags_bash_with_xcom' retrieved from /opt/airflow/dags/dags_bash_with_xcom.py
+[2025-05-10T01:24:46.851+0000] {logging_mixin.py:190} INFO - [2025-05-10T01:24:46.851+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-10T01:24:46.867+0000] {logging_mixin.py:190} INFO - [2025-05-10T01:24:46.867+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_bash_with_xcom to 2025-05-02 15:10:00+00:00, run_after=2025-06-06 15:10:00+00:00
+[2025-05-10T01:24:46.880+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_bash_with_xcom.py took 0.059 seconds
+[2025-05-10T01:25:17.482+0000] {processor.py:186} INFO - Started process (PID=67995) to work on /opt/airflow/dags/dags_bash_with_xcom.py
+[2025-05-10T01:25:17.483+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_bash_with_xcom.py for tasks to queue
+[2025-05-10T01:25:17.484+0000] {logging_mixin.py:190} INFO - [2025-05-10T01:25:17.483+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_bash_with_xcom.py
+[2025-05-10T01:25:17.488+0000] {processor.py:925} INFO - DAG(s) 'dags_bash_with_xcom' retrieved from /opt/airflow/dags/dags_bash_with_xcom.py
+[2025-05-10T01:25:17.503+0000] {logging_mixin.py:190} INFO - [2025-05-10T01:25:17.502+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-10T01:25:17.518+0000] {logging_mixin.py:190} INFO - [2025-05-10T01:25:17.518+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_bash_with_xcom to 2025-05-02 15:10:00+00:00, run_after=2025-06-06 15:10:00+00:00
+[2025-05-10T01:25:17.530+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_bash_with_xcom.py took 0.053 seconds
+[2025-05-10T01:25:48.071+0000] {processor.py:186} INFO - Started process (PID=68077) to work on /opt/airflow/dags/dags_bash_with_xcom.py
+[2025-05-10T01:25:48.072+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_bash_with_xcom.py for tasks to queue
+[2025-05-10T01:25:48.073+0000] {logging_mixin.py:190} INFO - [2025-05-10T01:25:48.072+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_bash_with_xcom.py
+[2025-05-10T01:25:48.078+0000] {processor.py:925} INFO - DAG(s) 'dags_bash_with_xcom' retrieved from /opt/airflow/dags/dags_bash_with_xcom.py
+[2025-05-10T01:25:48.093+0000] {logging_mixin.py:190} INFO - [2025-05-10T01:25:48.092+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-10T01:25:48.108+0000] {logging_mixin.py:190} INFO - [2025-05-10T01:25:48.108+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_bash_with_xcom to 2025-05-02 15:10:00+00:00, run_after=2025-06-06 15:10:00+00:00
+[2025-05-10T01:25:48.118+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_bash_with_xcom.py took 0.053 seconds
+[2025-05-10T01:26:18.523+0000] {processor.py:186} INFO - Started process (PID=68159) to work on /opt/airflow/dags/dags_bash_with_xcom.py
+[2025-05-10T01:26:18.524+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_bash_with_xcom.py for tasks to queue
+[2025-05-10T01:26:18.526+0000] {logging_mixin.py:190} INFO - [2025-05-10T01:26:18.525+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_bash_with_xcom.py
+[2025-05-10T01:26:18.531+0000] {processor.py:925} INFO - DAG(s) 'dags_bash_with_xcom' retrieved from /opt/airflow/dags/dags_bash_with_xcom.py
+[2025-05-10T01:26:18.547+0000] {logging_mixin.py:190} INFO - [2025-05-10T01:26:18.547+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-10T01:26:18.563+0000] {logging_mixin.py:190} INFO - [2025-05-10T01:26:18.563+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_bash_with_xcom to 2025-05-02 15:10:00+00:00, run_after=2025-06-06 15:10:00+00:00
+[2025-05-10T01:26:18.576+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_bash_with_xcom.py took 0.057 seconds
+[2025-05-10T01:26:49.132+0000] {processor.py:186} INFO - Started process (PID=68241) to work on /opt/airflow/dags/dags_bash_with_xcom.py
+[2025-05-10T01:26:49.135+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_bash_with_xcom.py for tasks to queue
+[2025-05-10T01:26:49.136+0000] {logging_mixin.py:190} INFO - [2025-05-10T01:26:49.135+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_bash_with_xcom.py
+[2025-05-10T01:26:49.140+0000] {processor.py:925} INFO - DAG(s) 'dags_bash_with_xcom' retrieved from /opt/airflow/dags/dags_bash_with_xcom.py
+[2025-05-10T01:26:49.154+0000] {logging_mixin.py:190} INFO - [2025-05-10T01:26:49.154+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-10T01:26:49.177+0000] {logging_mixin.py:190} INFO - [2025-05-10T01:26:49.171+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_bash_with_xcom to 2025-05-02 15:10:00+00:00, run_after=2025-06-06 15:10:00+00:00
+[2025-05-10T01:26:49.190+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_bash_with_xcom.py took 0.062 seconds
+[2025-05-10T02:18:36.498+0000] {processor.py:186} INFO - Started process (PID=68330) to work on /opt/airflow/dags/dags_bash_with_xcom.py
+[2025-05-10T02:18:36.505+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_bash_with_xcom.py for tasks to queue
+[2025-05-10T02:18:36.507+0000] {logging_mixin.py:190} INFO - [2025-05-10T02:18:36.507+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_bash_with_xcom.py
+[2025-05-10T02:18:36.517+0000] {processor.py:925} INFO - DAG(s) 'dags_bash_with_xcom' retrieved from /opt/airflow/dags/dags_bash_with_xcom.py
+[2025-05-10T02:18:36.551+0000] {logging_mixin.py:190} INFO - [2025-05-10T02:18:36.551+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-10T02:18:36.605+0000] {logging_mixin.py:190} INFO - [2025-05-10T02:18:36.605+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_bash_with_xcom to 2025-05-02 15:10:00+00:00, run_after=2025-06-06 15:10:00+00:00
+[2025-05-10T02:18:36.644+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_bash_with_xcom.py took 0.166 seconds
+[2025-05-10T02:19:07.433+0000] {processor.py:186} INFO - Started process (PID=68411) to work on /opt/airflow/dags/dags_bash_with_xcom.py
+[2025-05-10T02:19:07.434+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_bash_with_xcom.py for tasks to queue
+[2025-05-10T02:19:07.435+0000] {logging_mixin.py:190} INFO - [2025-05-10T02:19:07.435+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_bash_with_xcom.py
+[2025-05-10T02:19:07.441+0000] {processor.py:925} INFO - DAG(s) 'dags_bash_with_xcom' retrieved from /opt/airflow/dags/dags_bash_with_xcom.py
+[2025-05-10T02:19:07.456+0000] {logging_mixin.py:190} INFO - [2025-05-10T02:19:07.456+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-10T02:19:07.473+0000] {logging_mixin.py:190} INFO - [2025-05-10T02:19:07.472+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_bash_with_xcom to 2025-05-02 15:10:00+00:00, run_after=2025-06-06 15:10:00+00:00
+[2025-05-10T02:19:07.486+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_bash_with_xcom.py took 0.057 seconds
+[2025-05-10T02:19:37.562+0000] {processor.py:186} INFO - Started process (PID=68493) to work on /opt/airflow/dags/dags_bash_with_xcom.py
+[2025-05-10T02:19:37.563+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_bash_with_xcom.py for tasks to queue
+[2025-05-10T02:19:37.564+0000] {logging_mixin.py:190} INFO - [2025-05-10T02:19:37.564+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_bash_with_xcom.py
+[2025-05-10T02:19:37.568+0000] {processor.py:925} INFO - DAG(s) 'dags_bash_with_xcom' retrieved from /opt/airflow/dags/dags_bash_with_xcom.py
+[2025-05-10T02:19:37.582+0000] {logging_mixin.py:190} INFO - [2025-05-10T02:19:37.582+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-10T02:19:37.597+0000] {logging_mixin.py:190} INFO - [2025-05-10T02:19:37.597+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_bash_with_xcom to 2025-05-02 15:10:00+00:00, run_after=2025-06-06 15:10:00+00:00
+[2025-05-10T02:19:37.608+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_bash_with_xcom.py took 0.051 seconds
+[2025-05-10T02:20:08.022+0000] {processor.py:186} INFO - Started process (PID=68575) to work on /opt/airflow/dags/dags_bash_with_xcom.py
+[2025-05-10T02:20:08.023+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_bash_with_xcom.py for tasks to queue
+[2025-05-10T02:20:08.023+0000] {logging_mixin.py:190} INFO - [2025-05-10T02:20:08.023+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_bash_with_xcom.py
+[2025-05-10T02:20:08.027+0000] {processor.py:925} INFO - DAG(s) 'dags_bash_with_xcom' retrieved from /opt/airflow/dags/dags_bash_with_xcom.py
+[2025-05-10T02:20:08.042+0000] {logging_mixin.py:190} INFO - [2025-05-10T02:20:08.042+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-10T02:20:08.058+0000] {logging_mixin.py:190} INFO - [2025-05-10T02:20:08.058+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_bash_with_xcom to 2025-05-02 15:10:00+00:00, run_after=2025-06-06 15:10:00+00:00
+[2025-05-10T02:20:08.071+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_bash_with_xcom.py took 0.053 seconds
+[2025-05-10T02:20:38.811+0000] {processor.py:186} INFO - Started process (PID=68657) to work on /opt/airflow/dags/dags_bash_with_xcom.py
+[2025-05-10T02:20:38.812+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_bash_with_xcom.py for tasks to queue
+[2025-05-10T02:20:38.813+0000] {logging_mixin.py:190} INFO - [2025-05-10T02:20:38.813+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_bash_with_xcom.py
+[2025-05-10T02:20:38.818+0000] {processor.py:925} INFO - DAG(s) 'dags_bash_with_xcom' retrieved from /opt/airflow/dags/dags_bash_with_xcom.py
+[2025-05-10T02:20:38.833+0000] {logging_mixin.py:190} INFO - [2025-05-10T02:20:38.833+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-10T02:20:38.848+0000] {logging_mixin.py:190} INFO - [2025-05-10T02:20:38.848+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_bash_with_xcom to 2025-05-02 15:10:00+00:00, run_after=2025-06-06 15:10:00+00:00
+[2025-05-10T02:20:38.859+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_bash_with_xcom.py took 0.056 seconds
+[2025-05-10T03:21:36.018+0000] {processor.py:186} INFO - Started process (PID=68738) to work on /opt/airflow/dags/dags_bash_with_xcom.py
+[2025-05-10T03:21:36.020+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_bash_with_xcom.py for tasks to queue
+[2025-05-10T03:21:36.021+0000] {logging_mixin.py:190} INFO - [2025-05-10T03:21:36.021+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_bash_with_xcom.py
+[2025-05-10T03:21:36.031+0000] {processor.py:925} INFO - DAG(s) 'dags_bash_with_xcom' retrieved from /opt/airflow/dags/dags_bash_with_xcom.py
+[2025-05-10T03:21:36.083+0000] {logging_mixin.py:190} INFO - [2025-05-10T03:21:36.083+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-10T04:20:35.643+0000] {logging_mixin.py:190} INFO - [2025-05-10T04:20:35.643+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_bash_with_xcom to 2025-05-02 15:10:00+00:00, run_after=2025-06-06 15:10:00+00:00
+[2025-05-10T04:20:35.766+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_bash_with_xcom.py took 3460.672 seconds
+[2025-05-10T04:57:31.614+0000] {processor.py:186} INFO - Started process (PID=68827) to work on /opt/airflow/dags/dags_bash_with_xcom.py
+[2025-05-10T04:57:31.616+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags_bash_with_xcom.py for tasks to queue
+[2025-05-10T04:57:31.627+0000] {logging_mixin.py:190} INFO - [2025-05-10T04:57:31.617+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags_bash_with_xcom.py
+[2025-05-10T04:57:31.642+0000] {processor.py:925} INFO - DAG(s) 'dags_bash_with_xcom' retrieved from /opt/airflow/dags/dags_bash_with_xcom.py
+[2025-05-10T04:57:31.691+0000] {logging_mixin.py:190} INFO - [2025-05-10T04:57:31.691+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-10T04:57:31.751+0000] {logging_mixin.py:190} INFO - [2025-05-10T04:57:31.750+0000] {dag.py:4180} INFO - Setting next_dagrun for dags_bash_with_xcom to 2025-05-02 15:10:00+00:00, run_after=2025-06-06 15:10:00+00:00
+[2025-05-10T04:57:31.786+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags_bash_with_xcom.py took 0.208 seconds

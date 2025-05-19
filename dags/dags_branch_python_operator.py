@@ -9,7 +9,7 @@ with DAG(
     schedule=None, 
     catchup=False
 ) as dag:
-    def seleft_random():
+    def select_random():
         import random
 
         item_lst = ['A', 'B', 'C']
@@ -44,4 +44,4 @@ with DAG(
         task_id='task_c',
         python_callable=common_func,
         op_kwargs={'selected': 'C'}
-    )`
+    )

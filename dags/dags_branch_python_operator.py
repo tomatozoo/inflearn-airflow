@@ -45,3 +45,5 @@ with DAG(
         python_callable=common_func,
         op_kwargs={'selected': 'C'}
     )
+
+    python_branch_task >> [task_a, task_b, task_c]

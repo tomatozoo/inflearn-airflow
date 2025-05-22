@@ -102,6 +102,13 @@ networks:
           gateway: 172.28.0.1
 
 services:
+  rshiny_custom:
+    image: rocker/shiny-verse:latest
+    ports:
+      - 3838:3838
+    networks:
+      network_custom:
+        ipv4_address: 172.28.0.2
   postgres_custom:
     image: postgres:13
     environment:
